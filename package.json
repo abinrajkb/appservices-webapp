@@ -1,0 +1,23 @@
+{
+  "name": "appservices-webapp",
+  "version": "1.0.0",
+  "description": "A sample webapp to simulate the CI/CD with Azure App Service Web Apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abinrajkb/appservices-webapp.git"
+  },
+  "author": "abinrajkb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abinrajkb/appservices-webapp/issues"
+  },
+  "homepage": "https://github.com/abinrajkb/appservices-webapp#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
