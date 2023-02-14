@@ -2,7 +2,7 @@ express = require('express')
 app = express()
 
 app.get('/', (req, res) => {
-    res.send('server is up and running')
+    res.send('Server is up and running. You are now watching the staging environment')
 })
 
 app.listen(8080, ()=> {
