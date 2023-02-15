@@ -9,6 +9,10 @@
 * Deployment Slots
   * create a new branch 'staging' from 'main'
   * create a new 'deployment slot' from App Service instance with the name 'staging'
-  * navigate to the 'deployment center' tab of our new staging slot instance
+  * navigate to the 'deployment center' tab of our new staging slot instance and tag our 'staging' branch. Opt for a new workflow file during the setup
+  * ensure that a new workflow file was created automatically in the 'staging' branch in our repo
   * update the index.js file to reflect the changes and commit the same in the new staging branch
-  * create a new workflow file 'staging_experimentwebapp101.yml' which points to the 'staging' slot from the 'staging' branch
+  * verify that a new build was triggered and our changes were deployed successfully in the staging slot
+  * go to 'deployment center' and swap the slots, and ensure that we can now see the changes accordingly when we hit the URLs
+  
+  We have now setup an end to end CI/CD pipeline with separated branch criterias, where each branch can be tagged to different app service web app slots.
